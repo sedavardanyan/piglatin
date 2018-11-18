@@ -1,0 +1,1 @@
+web: gunicorn PigLatin.wsgi --log-file -
