@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Translator</title>
+</head>
+<body>
+<h1>Pig Latin Translator!</h1>
+<h3>Original:</h3>
+{{ original }}
+<h3>Translation:</h3>
+{{ translation }}
+
+<br/>
+<br />
+<form action="{% url 'home'%}">
+    <button>New Translation</button>
+</form>
+<br />
+<form action="{% url 'about'%}">
+    <button>About</button>
+</form>
+</body>
+</html>
